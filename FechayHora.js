@@ -1,30 +1,9 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <title>Fecha y hora</title>
-</head>
-<body>
-    <script>
-
-
-        var fechayhora = new Date()
-        var numerodia = fechayhora.getDay()
+        let fechayhora = new Date()
+        let numerodia = fechayhora.getDay()
          console.log(fechayhora)
          console.log(numerodia)
 
-         var nombredia = ''
-         /*if(numerodia==0) nombredia = 'Domingo'
-         else if(numerodia==1) nombredia = 'Lunes'
-         else if(numerodia==2) nombredia = 'Martes'
-         else if(numerodia==3) nombredia = 'Miercoles'
-         else if(numerodia==4) nombredia = 'Jueves'
-         else if(numerodia==5) nombredia = 'Viernes'
-         else if(numerodia==6) nombredia = 'Sabado'
-         else nombredia = 'Dia desconocido' 
-
-         document.write('El numero de día es: ' + numerodia + '<br>')
-         document.write('Hoy es ' +nombredia + '<br>') */
-
+        let nombredia = ''
          switch(numerodia){
              case 0:
                  nombredia= 'Domingo'
